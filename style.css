@@ -26,6 +26,9 @@ body {
     background-color: #434344;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    filter: opacity(95%);
 }
 
 nav {
@@ -33,6 +36,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 nav > p {
