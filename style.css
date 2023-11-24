@@ -221,36 +221,42 @@ nav > svg {
     gap: 10px;
 }
 
-footer {
-    background-color: #eeeeee;
-    color: rgb(58, 58, 58);
+.comment-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
-    padding: 10px;
-  }
+}
 
-  #commentField {
-    width: 50%;
+.comment-section {
+    display: flex;
+    justify-content: center;
+}
+
+#commentField {
+    font-family: 'Roboto', sans-serif;;
+    width: 900px;
     padding: 15px;
     margin-top: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    resize: vertical;
-  }
+}
 
-  #commentField:focus {
+#commentField:focus {
     outline: none;
     border-color: #0070c9;
-  }
+}
 
-  #commentLabel {
+#commentLabel {
     display: block;
     font-size: 18px;
     margin-bottom: 8px;
     color: #333;
-  }
+}
 
-  #submitComment {
+#submitComment {
+    margin-top: 20px;
+    height: 50px;
     background-color: #0070c9;
     color: white;
     padding: 10px 15px;
@@ -259,8 +265,15 @@ footer {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
-  }
+}
 
-  #submitComment:hover {
-    background-color: #004d80;
-  }
+#submitComment:hover {
+  background-color: #004d80;
+}
+
+footer {
+    background-color: #eeeeee;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    padding: 10px;
+}
