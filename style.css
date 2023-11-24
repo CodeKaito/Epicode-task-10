@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-container {
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container > p {
+    font-size: smaller;
+    color: #272727;
+}
+
+.navbar-container {
+    height: 40px;
+    background-color: #434344;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > p {
+    color: aliceblue;
+    font-weight: 300;
+    font-size: small;
+    cursor: pointer;
+}
+
+nav > svg {
+    fill: aliceblue;
+    cursor: pointer;
+}
+
+.title-container-superior {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+.title-container {
+    padding: 40px;
+}
+
+.title-container > h1 {
+    font-size: 80px;
+    color: #1D1D1F;
+}
+
+.firstImage-container {
+    height: 600px;
+    background-image: url('https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ase-hero-202311_GEO_IT?wid=4098&hei=1294&fmt=jpeg&qlt=90&.v=1698958262763');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.secondImage-container {
+    margin-top: 30px;
+    height: 500px;
+    background-image: url("https://www.apple.com/v/home/bf/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.title-container-secondImage {
+    color: #F5F5F7;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.title-container-secondImage > h1 {
+    font-size: 80px;
+}
+
+.title-container-secondImage > h2 {
+    font-size: 40px;
+}
+
