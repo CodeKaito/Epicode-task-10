@@ -58,11 +58,21 @@ nav > svg {
 
 .title-container {
     padding: 40px;
+    text-align: center;
 }
 
 .title-container > h1 {
     font-size: 80px;
     color: #1D1D1F;
+}
+
+.title-container > p {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.title-container > p:hover {
+    text-decoration: underline;
 }
 
 .firstImage-container {

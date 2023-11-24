@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>E-Commerce Epicode</title>
 </head>
 <body>
@@ -41,7 +42,8 @@
     </div>
     <div class="title-container-superior">
         <div class="title-container">
-            <h1>Apple Store</h1>
+            <h1 id="title">Apple Store</h1>
+            <p onclick="changeTitle()">(clicca qui per cambiare il titolo)</p>
         </div>
     </div>
         
@@ -107,12 +109,12 @@
         <div class="comment-section">
             <textarea id="commentField" rows="4" placeholder="Inserisci il tuo commento qui..."></textarea>
         </div>
-        <button id="submitComment">Invia Commento</button>
+        <button id="submitComment" onclick="commentSent()" >Invia Commento</button>
     </div>
     
 
     <footer>
-        <p>Il Tuo Negozio Online</p>
+        <p id="address">Il Tuo Negozio Online</p>
         <p>Via del Negozio, 123</p>
         <p>Città, CAP</p>
     </footer>
