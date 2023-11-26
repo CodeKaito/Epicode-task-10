@@ -6,6 +6,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F7;
 }
 
 .banner-container {
@@ -72,6 +73,7 @@ nav > svg {
 }
 
 .title-container > p:hover {
+    color: #0166CC;
     text-decoration: underline;
 }
 
@@ -286,4 +288,17 @@ footer {
     color: rgb(58, 58, 58);
     text-align: center;
     padding: 10px;
+}
+
+.function {
+    cursor: pointer;
+}
+
+.function:hover {
+    color: #0166CC;
+    text-decoration: underline;
+}
+
+.visiblity {
+    display: none;
 }

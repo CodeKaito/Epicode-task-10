@@ -43,7 +43,9 @@
     <div class="title-container-superior">
         <div class="title-container">
             <h1 id="title">Apple Store</h1>
-            <p onclick="changeTitle()">(clicca qui per cambiare il titolo)</p>
+            <p onclick="changeTitle()">(Clicca qui per cambiare titolo)</p>
+            <p onclick="toggleBackgroundColor()">(clicca qui per cambiare il background color)</p>
+            <p onclick="changeColorPrices()">(clicca qui per cambiare il colore dei prezzi)</p>
         </div>
     </div>
         
@@ -61,16 +63,16 @@
                 <h1>iPhone 15</h1>
                 <h2>Nuova fotocamera e nuovo design.</h2>
                 <h2>Prodigioso.</h2>
-                <p>A partire da 1.570$</p>
-                <a href="">Scopri di piú</a>
+                <p>A partire da <span class="price">1.570$</span></p>
+                <a href="amazon">Scopri di piú</a>
             </div>
         </div>
         <div class="item2-container">
             <div class="items">
                 <h1>MacBook Pro</h1>
                 <h2>Splendido e potente.</h2>
-                <p>A partire da 1.890$</p>
-                <a href="">Scopri di piú</a>
+                <p>A partire da <span class="price">1.890$</span></p>
+                <a href="amazon">Scopri di piú</a>
             </div>
         </div>
         <div class="item3-container">
@@ -81,24 +83,24 @@
             
             <div class="items" id="items3">
                 <h2>L'avventura ha nuove frontiere.</h2>
-                <p>A partire da 700$</p>
-                <a href="">Scopri di piú</a>
+                <p>A partire da <span class="price">700$</span></p>
+                <a href="amazon">Scopri di piú</a>
             </div>
         </div>
         <div class="item4-container">
             <div class="items" id="items4">
                 <h1>AirPods Pro</h1>
                 <h2>Audio adattivo. Senti qua.</h2>
-                <p>A partire da 200$</p>
-                <a href="">Scopri di piú</a>
+                <p>A partire da <span class="price">200$</span></p>
+                <a href="amazon">Scopri di piú</a>
             </div>
         </div>
         <div class="item5-container">
             <div class="items">
                 <h1>Accessori Apple</h1>
                 <div class="items-details">
-                    <p>A partire da 20$</p>
-                    <a href="">Scopri di piú</a>
+                    <p >A partire da <span class="price">20$</span></p>
+                    <a href="amazon">Scopri di piú</a>
                 </div>
             </div>
         </div>
@@ -114,8 +116,9 @@
     
 
     <footer>
-        <p id="address">Il Tuo Negozio Online</p>
-        <p>Via del Negozio, 123</p>
+        <p>Il Tuo Negozio Online</p>
+        <p class="function" onclick="changeAddress()">(clicca qui per cambiare l'indirizzo dell'e-commerce)</p>
+        <p id="address">Via del Negozio, 123</p>
         <p>Città, CAP</p>
     </footer>
 </body>
